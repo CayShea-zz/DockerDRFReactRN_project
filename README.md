@@ -32,11 +32,15 @@ If you are working on the UI you will also need to install Yarn.
 
 ## then...
 
-[] start a new Database within Postgresql
-[] edit local_settings file to configure DB (if needed)
-[] $ pip install -r requirements.txt
-[] $ python manage.py migrate
-[] $ yarn install (or use npm)
+1) start a new Database within Postgresql
+
+2) edit local_settings file to configure DB (if needed)
+
+3) ```$ pip install -r requirements.txt```
+
+4) ```$ python manage.py migrate```
+
+5) ```$ yarn install (or use npm)```
 
 
 
@@ -48,13 +52,13 @@ If you are working on the UI you will also need to install Yarn.
 Set up your .bash_profile (go to bottom of this README file). If you're using ZSH, you will have to do
 some different stuff, setting up .zshrc, compinit, etc. to get completion working nicely and what not.
 
-## Set up your .bash_profile if needed.
+### Set up your .bash_profile if needed.
 ```bash
 vi ~/.bash_profile
 # Paste in .bash_profile content below and save.
 source ~/.bash_profile
 ```
-### .bash_profile
+
 ```
 # Setting PATH for Python 3.8
 PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"
